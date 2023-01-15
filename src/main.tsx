@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
 import './index.css'
 import produce from 'immer'
+import 'bootstrap/dist/css/bootstrap.css'
+import AppContainer from './chapter402/AppContainer'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <App />
-
+    <AppContainer />
   </React.StrictMode>,
 )
 
