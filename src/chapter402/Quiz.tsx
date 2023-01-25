@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import produce from 'immer'
 import 'bootstrap/dist/css/bootstrap.css'
-import AppContainer from './chapter402/AppContainer'
+import AppContainer from './AppContainer'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
