@@ -21,6 +21,7 @@ export default class Clock extends Component<Props, State>{
       console.log('# tick!')
       this.setState({currentTime: new Date() });
     }, 1000);
+    console.log(this.handle)
   }
 
   componentWillUnmount = () => {

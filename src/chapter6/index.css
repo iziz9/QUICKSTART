@@ -1,0 +1,14 @@
+.rootdiv {
+  width:  800px;
+  margin: 60px auto;
+  /* text-align: center; */
+}
+
+.boxStyle {
+  border: 2px solid black;
+  text-align: center;
+  padding: 5px;
+  background-color: rgba(100, 148, 237, 0.741);
+  margin-top: 30px;
+  color: white;
+}
