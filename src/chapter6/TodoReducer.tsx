@@ -7,7 +7,7 @@ export type TodoItemType = {id:number, todo:string};
 // type이 add인지 delete인지에 따라 payload의 형식이 달라지기 때문
 export const TODO_ACTION = {
   ADD: 'addTodo' as const,
-  DELETE: 'deleteTodo' as const,
+  DELETE: 'deleteTodo' as const
 }
 
 export const TodoActionCreator = {
