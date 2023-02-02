@@ -9,6 +9,7 @@ export type TodoListItemType = {
 // List와 todo상태 초기화
 // 할일을 추가하는 상태 변경 메서드 작성
 // List상태를 List컴포넌트 -> Item컴포넌트로 전달
+
 const TodoApp = () => {
   const [todoList, setTodoList] = useState<Array<TodoListItemType>>([]);
   const [todo, setTodo] = useState<string>("")
