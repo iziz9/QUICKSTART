@@ -1,8 +1,11 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 
 const Header = () => {
+
+  // console.log(isActive)
+
   return (
     <div className="card bg-light">
       <div className="card-heading">
@@ -12,18 +15,18 @@ const Header = () => {
         </p>
         <div className="row">
           <div className="col-12">
-            <Link className="btn btn-success menu" to='/'>
+            <NavLink to='/home' className={( {isActive} ) => {return isActive ? 'btn menu btn-dark' : 'btn menu btn-success'}} >
               HOME  
-            </Link>
-            <Link className="btn btn-success menu" to='/about'>
+            </NavLink>
+            <NavLink to='/about' className={( {isActive} ) => {return isActive ? 'btn menu btn-dark' : 'btn menu btn-success'}}>
               About
-            </Link>
-            <Link className="btn btn-success menu" to='/members'>
+            </NavLink>
+            <NavLink to='/members' className={( {isActive} ) => {return isActive ? 'btn menu btn-dark' : 'btn menu btn-success'}}>
               Members
-            </Link>
-            <Link className="btn btn-success menu" to='/songs'>
+            </NavLink>
+            <NavLink to='/songs' className={( {isActive} ) => {return isActive ? 'btn menu btn-dark' : 'btn menu btn-success'}}>
               Songs
-            </Link>
+            </NavLink>
           </div>
         </div>
       </div>

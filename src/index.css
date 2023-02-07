@@ -34,6 +34,11 @@ body {
   margin-top: 20px;
 }
 
+.container li {
+  text-align: left;
+  padding-left: 30px;
+}
+
 .menu {
   width: 25%;
   border-radius: 0 !important;
@@ -55,7 +60,7 @@ body {
 .box {
   background-color: white;
   margin: 100px auto;
-  max-width: 330px;
+  max-width: 650px;
   min-width: 100px;
   min-height: 250px;
   font: 12px 'verdana';
@@ -69,14 +74,14 @@ body {
 }
 
 .box .heading {
-  background-color: #33A17F;
+  background-color: olivedrab;
   font-weight: 300;
-  text-align: left;
+  text-align: center;
   color: #fff;
   margin: 0px;
   padding: 10px;
   min-width: 200px;
-  max-width: 360px;
+  max-width: 650px;
 }
 
 .box .player {
@@ -90,4 +95,11 @@ body {
 
 .play-button-disabled {
   opacity: 0.3;
+}
+
+.green {
+  color: goldenrod;
+  background-color: blanchedalmond;
+  width: fit-content;
+  margin: auto;
 }
