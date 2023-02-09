@@ -12,7 +12,7 @@ body {
   font-size: 20pt;
 }
 
-.item-done {
+.todo-done {
   text-decoration: line-through;
 }
 
