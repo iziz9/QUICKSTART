@@ -62,7 +62,7 @@ const AppContainer = () => {
   const callbacks: CallbacksType = { addTodo, deleteTodo, updateTodo, toggleDone }
   const states: StatesType = {todoList}
 
-  return <App callbacks={callbacks} states={states} />
+  // return <App callbacks={callbacks} states={states} />
 };
 
 export default AppContainer;

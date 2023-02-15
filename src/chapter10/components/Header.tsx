@@ -18,6 +18,11 @@ const Header = (props: Props) => {
         isNavShow ? 'collapse navbar-collapse show' : 'collapse navbar-collapse'
       }>
         <ul className="navbar-nav">
+        <li className="nav-item">
+            <Link className="nav-link" to='/'>
+              HOME
+            </Link>
+          </li>
           <li className="nav-item">
             <Link className="nav-link" to='/about'>
               About
